@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rejestruj_konto"
+            android:textSize="35sp"
+            android:background="@color/teal"
+            android:textColor="@color/white"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/podaj_e_mail"
+            android:layout_marginTop="10sp"
+            android:textSize="18sp"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:textColor="@color/black"
+            android:layout_marginTop="15sp"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/podaj_has_o"
+            android:layout_marginTop="10sp"
+            android:textSize="18sp"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="15sp"
+            android:textSize="18sp"
+            android:inputType="textPassword"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Powtórz hasło: "
+            android:layout_marginTop="10sp"
+            android:textSize="18sp"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="15sp"
+            android:textSize="18sp"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:layout_width="160sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15sp"
+            android:backgroundTint="#B5B5B5"
+            android:text="ZATWIERDŹ"
+            android:textColor="@color/black"
+            android:textSize="20sp"></Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Witaj E-mail"
+            android:textSize="18sp">
+
+        </TextView>
+
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

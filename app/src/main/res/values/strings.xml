@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rejestracja_egzamin</string>
+    <string name="rejestruj_konto">Rejestruj konto</string>
+    <string name="podaj_e_mail">Podaj e-mail:</string>
+    <string name="email">email</string>
+    <string name="podaj_has_o">Podaj hasło:</string>
+</resources>
